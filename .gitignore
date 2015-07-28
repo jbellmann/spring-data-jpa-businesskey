@@ -5,3 +5,6 @@
 
 target
 
+examples/businesskey-example-eclipselink/createDDL.jdbc
+examples/businesskey-example-eclipselink/dropDDL.jdbc
+
