@@ -3,6 +3,19 @@
 Is just a small library to provide some 'CUSTOM-ID' via annotation.
 
 
+#### Add the dependency:
+
+    ...
+    <dependency>
+        <groupId>org.zalando.spring</groupId>
+        <artifactId>spring-data-jpa-businesskey</artifactId>
+        <version>${version}</version>
+    </dependency>
+    ....
+
+#### How to use
+
+TODO
 
 
 
