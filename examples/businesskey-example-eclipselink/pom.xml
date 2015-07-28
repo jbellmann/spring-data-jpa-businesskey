@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.zalando.spring</groupId>
         <artifactId>examples</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.9.0</version>
     </parent>
     <artifactId>businesskey-example-eclipselink</artifactId>
 
