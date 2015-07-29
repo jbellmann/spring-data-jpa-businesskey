@@ -17,12 +17,15 @@ package org.zalando.stups.jpa.example.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
+import javax.persistence.Table;
 
 import org.springframework.data.jpa.domain.AbstractPersistable;
+
 import org.zalando.spring.data.businesskey.annotation.BusinessKey;
 import org.zalando.spring.data.businesskey.jpa.BusinessKeyEntityListener;
 
 @Entity
+@Table(name = "product", schema = "example_data")
 @EntityListeners({ BusinessKeyEntityListener.class })
 public class Product extends AbstractPersistable<Long> {
 

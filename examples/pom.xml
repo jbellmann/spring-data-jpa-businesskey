@@ -16,5 +16,6 @@
       <module>businesskey-example-common</module>
       <module>businesskey-example-hibernate</module>
       <module>businesskey-example-eclipselink</module>
+      <module>businesskey-example-with-stored-procedure</module>
   </modules>
 </project>
