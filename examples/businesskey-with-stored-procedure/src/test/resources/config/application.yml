@@ -1,0 +1,15 @@
+spring:
+    jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: none
+
+flyway:
+  enabled: true
+  schemas:
+    - example_data
+
+logging:
+  level:
+    root: warn
+    org.zalando.spring.data: debug
